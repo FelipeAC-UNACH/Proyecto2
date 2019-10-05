@@ -1,0 +1,164 @@
+*{
+    margin: 0;
+}
+body{
+  background-color: white;
+}
+.encabezado{
+    /*background:rgb(89, 144, 199);*/
+    height: 30px;
+    background-color: black;
+    text-align: center;
+    color: #242826;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+.encabezado2{
+    /*background:rgb(89, 144, 199);*/
+    height: 50px;
+    background-color:white;
+    text-align: center;
+    margin-top: 25px;
+    font-size: 25px;
+}
+.tema1 h1{
+    height: 50px;
+    background-color:white;
+    text-align: center;
+    margin-top: 25px;
+    font-size: 35px;
+    font-family: 'Times New Roman', Times, serif;
+}
+h1{
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+nav{
+    background: rgb(9, 209, 142);
+    color: black;
+    margin-top: 20px;
+    height: 80px;
+    width: 100%;
+}
+.dif{
+    background: white;
+    color: black;
+    margin-top: 20px;
+    height: 80px;
+    width: 100%;
+}
+nav ul{
+    padding: 15px 20px 20px 20px;
+    list-style: none;
+    display: inline;
+    padding-top: 20px; 
+}
+
+.lista{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.lista2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.lista3{
+    padding-left: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: left;  
+}
+.lista a{
+    font-size: 20px;
+    outline: none;
+
+}
+
+nav ul li{
+    padding: 10px;
+}
+
+
+.boton{
+    height: 38px;
+    background-color: black;
+    border: 0;
+    padding-left: 20px;
+    padding-right: 20px;
+    background: rgb(9, 209, 142);
+    font-family: fantasy;
+    font-size: 20px;
+}
+
+.boton2{
+    height: 38px;
+    color: white;
+    border: 0;
+    padding-left: 20px;
+    padding-right: 20px;
+    background: rgb(17, 132, 161);
+    font-family: fantasy;
+    font-size: 20px;
+}
+
+.boton3{
+    height: 38px;
+    color: white;
+    border: 0;
+    padding-left: 20px;
+    padding-right: 20px;
+    background: purple;
+    font-family: fantasy;
+    font-size: 20px;
+}
+
+.boton3{
+    height: 38px;
+    color: white;
+    border: 0;
+    position: left;
+    background: purple;
+    font-family: fantasy;
+    font-size: 20px;
+}
+
+button:hover{
+    background: red;
+    color: white;
+}
+
+.img{
+    background: white;
+}
+
+.t{
+    width: 60%;
+}
+
+p{
+    width: 60%;;
+    height: auto;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    text-align: justify;
+    line-height: 30px;
+}
+.p{
+    width: 60%;;
+    height: auto;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    text-align: justify;
+    line-height: 30px;
+}
+
+footer{
+    background: rgb(29, 30, 34);
+    color: white;
+    padding: 20px;
+    margin-top: 20px;
+    text-align: center;
+}
